@@ -1,4 +1,15 @@
 # Project2
+0. Lépés: Github
+
+    Visual Studio terminal vagy Windows Powershell indítása: (Stargomb > jobb click > Windows Powershell)
+    ssh-keygen -t rsa -b 4096 -C "email cim"
+    enter 3-szor
+    cat ~/.ssh/id_rsa.pub
+    A kilistázott publikus kulcsot kimásolni
+    https://github.com/settings/keys    /   New SSH key   /   Ctrl-V    /    Save
+    git config --global user.name "saját név"      
+    git config --global user.email "email cim"
+
 1. Lépés: Python letoltése
 
     https://www.python.org/downloads/
@@ -9,7 +20,7 @@
 
 3. Lépés: Függőlégek telepítése telepítése
 
-    Visual Studio / Windows Powershell indítása: (Stargomb > jobb click > Windows Powershell)
+    Visual Studio / Windows Powershell indítása
     Írd be a következőket:
     pip install pygame
     pip install pygbag
